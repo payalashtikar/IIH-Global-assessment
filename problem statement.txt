@@ -1,0 +1,38 @@
+Task Management System
+
+Objective
+Build a Task Management System using the MERN stack (MongoDB, Express, React, Node.js)
+
+Requirements
+1. Task Management (CRUD)
+Users should be able to create, delete, and mark tasks as completed.
+Each task should have:
+	Title (required)
+	Status (Pending / Completed)
+
+2. Filtering & Search
+Users should be able to:
+Search tasks by title (partial matching).
+Filter tasks by status (Pending / Completed).
+
+3. Pagination
+Implement pagination for task listing.
+Allow users to specify the page number and page size.
+
+4. Task Statistics
+Display the following statistics:
+Total tasks count
+Completed tasks count
+Pending tasks count
+
+Technical Expectations
+
+Backend:
+Use Node.js (Express.js) for the REST API.
+Store data in MongoDB
+Implement proper API routes following RESTful conventions.
+
+Frontend:
+Implement a clean UI (using a framework like MUI, Chakra etc)
+Fetch data from the backend
+Display paginated tasks
